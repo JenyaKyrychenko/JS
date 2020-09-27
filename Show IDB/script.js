@@ -1,34 +1,56 @@
 (function () {
 
-const customerData = [
-    {ssn: "444-44-4444", name: "Bill", age: 35, email: "bill@company.com"},
-    {ssn: "555-55-5555", name: "Donna", age: 32, email: "donna@home.org"}
-];
+    const DB_NAME = 'users';
+    const DB_VERSION = 2;
+    const DB_STORE_NAME = 'customers';
+    var db;
 
-const DB_NAME = 'customers';
-const DB_VERSION = 3;
-const DB_STORE_NAME = 'users';
+    var customerData = [
+        {id: '1', name: "Ivan", lastName: 'Petrov', birthData: '11.05.2000', email: 'ivan33@gmail.com'},
+        {id: '2', name: "Semen", lastName: 'Kaleka', birthData: '01.03.1986', email: 'chernobyl@gmail.com'}
+    ];
 
-var db;
+    var request = indexedDB.open(DB_NAME, DB_VERSION);
 
-var current_view_pub_key;
+    request.onsuccess = function (event) {
+        db = request.result;
+        console.log("ON SUCCESS");
 
-function openDb() {
-    console.log('openDB..');
-    var req = indexedDB.open(DB_NAME, DB_VERSION);
-    req.onsuccess = function (event) {
-        db = this.result;
-        console.log('openDb DONE!');
+        var transaction = db.transaction(DB_STORE_NAME, "readwrite");
+        var objectStore = transaction.objectStore(DB_STORE_NAME);
+        customerData.forEach(function (customer) {
+            let request = objectStore.add(customer);
+            request.onsuccess = function(event) {
+                // event.target.result === customer.ssn;
+            };
+        })
+
+        var tran = db.transaction(DB_STORE_NAME,'readonly').objectStore(DB_STORE_NAME);
+        var result = tran.get('2');
+        result.onerror = function () {
+            //
+        };
+        result.onsuccess = function (event) {
+            console.log("Name for id 2 is " + result.result.lastName);
+        }
     };
-    req.onerror = function (event) {
-        console.error(event.target.errorCode);
+
+    request.onerror = function (event) {
+        console.error(request.errorCode);
     };
 
-    req.onupgradeneeded = function (event) {
-        console.log('openDb.onupgradeneeded');
-    }
-}
+    request.onupgradeneeded = function (event) {
+        console.log("up");
+        var db = event.target.result;
 
-openDb();
+        var objectStore = db.createObjectStore(DB_STORE_NAME, {keyPath:"id", autoIncrement:true});
+        objectStore.createIndex('name','name',{unique:true});
+        objectStore.createIndex('lastName','lastName',{unique:true});
+        objectStore.createIndex('email','email',{unique:true});
+
+        objectStore.transaction.oncomplete = function (event) {
+            console.log('UP OK!');
+        };
+    };
 
 })();
