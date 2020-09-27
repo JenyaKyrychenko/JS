@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="script.js" type="module"></script>
+    <script scr="db.js" ></script>
+    <script scr="constants.js" ></script>
     <title>Shop</title>
 </head>
 <body>
 
+    <div class="form-group">
+        <label for="exampleInputEmail1">More Less</label>
+        <input id="title" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">You last answer</small>
+    </div>
+    <button type="submit" class="btn btn-primary" id="success">Submit</button>
 
-    <input type="text" id="title" name="title" >
-    <button id="success">input</button>
+
 
 </body>
 </html>

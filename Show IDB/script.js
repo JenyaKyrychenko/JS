@@ -11,7 +11,7 @@
 
     var btn = document.getElementById('success');
     btn.addEventListener('click',()=>{
-        d = document.getElementById('title').value;
+        let d = document.getElementById('title').value;
         data = {id: '5', name: d, lastName: 'OOOOOO', birthData: '11.05.2000', email: 'ivanf33@gmail.com'};
         openDB();
     });
