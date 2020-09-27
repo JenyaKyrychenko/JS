@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Super Heroes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+
+</header>
+<section>
+
+</section>
+<script>
+    const header = document.querySelector('header');
+    const section = document.querySelector('section');
+
+
+    var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+    var request = new XMLHttpRequest();
+    request.open('GET',requestURL);
+    request.responseType = 'json';
+    request.send();
+
+    request.onload = function() {
+        var superHeroes = request.response;
+        heroesHeader(superHeroes);
+        heroesCard(superHeroes);
+    }
+
+    function heroesHeader(obj) {
+        var squadName = document.createElement('h1');
+        var headContent = document.createElement('p');
+
+        squadName.textContent = obj.squadName;
+        header.appendChild(squadName);
+
+        headContent.textContent = 'Hometown: ' + obj.homeTown + '. Formed: ' + obj.formed;
+        header.appendChild(headContent);
+    }
+
+    function heroesCard(obj) {
+        var heroes = obj.members;
+
+        for(var i = 0; i < heroes.length; i++){
+            var article = document.createElement('article');
+            var name = document.createElement('h2');
+            var identity = document.createElement('p');
+            var age = document.createElement('p');
+            var listPreview = document.createElement('h3');
+            var list = document.createElement('ul');
+
+            name.textContent = heroes[i].name;
+            identity.textContent = 'Secret Identity: ' + heroes[i].secretIdentity;
+            age.textContent = 'Age: ' + heroes[i].age;
+            listPreview.textContent = 'Superpowers: ';
+
+            var superPowers = heroes[i].powers;
+
+            for(var j = 0; j < superPowers.length; j++){
+                var power = document.createElement('li');
+
+                power.textContent = superPowers[j];
+
+                list.appendChild(power);
+            }
+            article.appendChild(name);
+            article.appendChild(identity);
+            article.appendChild(age);
+            article.appendChild(listPreview);
+            article.appendChild(list);
+
+            section.appendChild(article);
+        }
+    }
+
+
+
+</script>
+</body>
+</html>
