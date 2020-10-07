@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73efff9-060d-471f-9dc7-04637290772c" name="Default Changelist" comment="Notes using IDB">
-      <change afterPath="$PROJECT_DIR$/Notes with IDB/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notes with IDB/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notes with IDB/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Canvas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Canvas/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slider/images/first.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slider/images/fourth.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slider/images/second.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slider/images/third.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slider/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slider/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slider/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,26 +22,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Notes with IDB/index.html">
+        <entry file="file://$PROJECT_DIR$/Slider/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Notes with IDB/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="6" column="113" selection-start-line="6" selection-start-column="113" selection-end-line="6" selection-end-column="113" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Notes with IDB/style.css">
+        <entry file="file://$PROJECT_DIR$/Slider/script.js">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Slider/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -90,12 +96,26 @@
         <option value="$PROJECT_DIR$/To Do with IDB/index.html" />
         <option value="$PROJECT_DIR$/Notes with IDB/index.html" />
         <option value="$PROJECT_DIR$/Notes with IDB/script.js" />
+        <option value="$PROJECT_DIR$/Ajax/verse1.txt" />
+        <option value="$PROJECT_DIR$/Ajax/verse2.txt" />
+        <option value="$PROJECT_DIR$/Ajax/verse3.txt" />
+        <option value="$PROJECT_DIR$/Ajax/verse4.txt" />
+        <option value="$PROJECT_DIR$/Ajax/style.css" />
+        <option value="$PROJECT_DIR$/Ajax/ajax-start.html" />
+        <option value="$PROJECT_DIR$/Ajax/script.js" />
+        <option value="$PROJECT_DIR$/Canvas/style.css" />
+        <option value="$PROJECT_DIR$/Canvas/canvas-index.html" />
+        <option value="$PROJECT_DIR$/Canvas/script.js" />
+        <option value="$PROJECT_DIR$/Canvas/index.html" />
+        <option value="$PROJECT_DIR$/Slider/script.js" />
+        <option value="$PROJECT_DIR$/Slider/index.html" />
+        <option value="$PROJECT_DIR$/Slider/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1563" />
-    <option name="y" value="-19" />
+    <option name="x" value="1396" />
+    <option name="y" value="-29" />
     <option name="width" value="1040" />
     <option name="height" value="743" />
   </component>
@@ -105,6 +125,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,23 +133,36 @@
               <item name="JScript" type="b2602c69:ProjectViewProjectNode" />
               <item name="JScript" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Slider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Slider" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Код/JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Код\Frontend\JScript\Slider\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jeka_\OneDrive\Рабочий стол\JScript\Show IDB" />
     </key>
@@ -157,7 +191,12 @@
       <updated>1600960344141</updated>
       <workItem from="1600960346483" duration="15327000" />
       <workItem from="1601041178768" duration="49965000" />
-      <workItem from="1601291943929" duration="10256000" />
+      <workItem from="1601291943929" duration="10614000" />
+      <workItem from="1601372171335" duration="4051000" />
+      <workItem from="1601404700137" duration="4242000" />
+      <workItem from="1601460190639" duration="2880000" />
+      <workItem from="1601569263061" duration="301000" />
+      <workItem from="1602060889703" duration="2433000" />
     </task>
     <task id="LOCAL-00001" summary="More Less rework">
       <created>1601295881428</created>
@@ -166,20 +205,26 @@
       <option name="project" value="LOCAL" />
       <updated>1601295881429</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Notes using IDB">
+      <created>1601316342076</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601316342076</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75548000" />
+    <option name="totallyTimeSpent" value="89813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1354009" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14599092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -192,13 +237,14 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13388805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13918306" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -213,6 +259,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -311,20 +358,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Notes with IDB/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Notes with IDB/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="238">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Notes with IDB/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Notes with IDB/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="205">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/verse1.txt" />
+    <entry file="file://$PROJECT_DIR$/Ajax/verse2.txt" />
+    <entry file="file://$PROJECT_DIR$/Ajax/verse3.txt" />
+    <entry file="file://$PROJECT_DIR$/Ajax/verse4.txt" />
+    <entry file="file://$PROJECT_DIR$/Canvas/style.css" />
+    <entry file="file://$PROJECT_DIR$/Canvas/canvas-index.html" />
+    <entry file="file://$PROJECT_DIR$/Canvas/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Canvas/script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slider/script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slider/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="113" selection-start-line="6" selection-start-column="113" selection-end-line="6" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slider/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
         </state>
       </provider>
     </entry>
