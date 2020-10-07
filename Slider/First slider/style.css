@@ -32,22 +32,22 @@ body{
 }
 
 .item-1 {
-    background:url(images/first.jpg) no-repeat center center;
+    background:url(../images/first.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .item-2 {
-    background:url(images/second.jpg) no-repeat center center;
+    background:url(../images/second.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .item-3 {
-    background:url(images/third.jpg) no-repeat center center;
+    background:url(../images/third.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .item-4 {
-    background:url(images/fourth.jpg) no-repeat center center;
+    background:url(../images/fourth.jpg) no-repeat center center;
     background-size: cover;
 }
 @media (max-width: 640px) {
